@@ -1,6 +1,7 @@
 services:
 - type: web
   name: hasura
+  plan: free
   env: docker
   autoDeploy: false
   healthCheckPath: /healthz
